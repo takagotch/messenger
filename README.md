@@ -88,9 +88,20 @@ myModel.save({
 Messeger({instance: instance}).post("My awesome message")
 ```
 
-```
+```js
+zoom = 0.25;
+$iframe = $('iframe.demo');
+$iframe.data().zoomer.zoom = zoom;
+$iframe.zoomer('refresh');
+
+$('iframe.zoomer').zoomer({
+  zoom: 0.5,
+  width: 200
+});
 ```
 
-```
+```js
+Humanize.toFixed(0.615, 2)
+Humanize.normalizePrecision(-232.231)
 ```
 
