@@ -103,5 +103,8 @@ $('iframe.zoomer').zoomer({
 ```js
 Humanize.toFixed(0.615, 2)
 Humanize.normalizePrecision(-232.231)
+
+instance = $('.myContainer').messenger();
+Messenger({instance: instance}).post("My awesome message")
 ```
 
